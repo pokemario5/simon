@@ -23,6 +23,6 @@ def pick_colored():
         return c.green + 4
     input('(press enter to begin)')
       while True:
-       new = pick()
+         new = pick()
        num.append(num)
        t.sleep(9)
