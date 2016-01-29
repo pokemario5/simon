@@ -22,4 +22,15 @@ if __name__ == '__main__':
         new = pick()
         nums.append(new)
         print(nums)
-        t.sleep(9)
+        t.sleep(1)
+        print(c.clear)
+        order = input("simon says type the numbers: ")
+        answer = []
+        for n in order:
+            answer.append int(n))
+            if answer == numbers:
+                print(:oooooooooooohhhhhhhhhhhh ohoohohohoohhhhoooooohhhhhhh")
+                else:
+                print("sad airhorns")
+
+
