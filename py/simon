@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 import colors as c
 from random import randint
-
+import time as t
 def pick():
     return randint(1,4)
-
+nums = []
 
 def pick_colored():
     num = pick()
@@ -16,8 +16,10 @@ def pick_colored():
         return c.yellow + 3
     elif num == 4:
         return c.green + 4
+if __name__ == '__main__':
     input('(press enter to begin)')
-      while True:
-         new = pick()
-       num.append(num)
-       t.sleep(9)
+    while True:
+        new = pick()
+        nums.append(new)
+        print(nums)
+        t.sleep(9)
