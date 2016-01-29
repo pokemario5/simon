@@ -5,11 +5,6 @@ from random import randint
 def pick():
     return randint(1,4)
 
-if __name__ == '__main__':
-num = pick()
-print(num)
-
-num =[]
 
 def pick_colored():
     num = pick()
