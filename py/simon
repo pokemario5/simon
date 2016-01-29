@@ -4,13 +4,12 @@ from random import randint
 
 def pick():
     return randint(1,4)
-    
 
 if __name__ == '__main__':
-print("welcome to simon")
 num = pick()
 print(num)
 
+num =[]
 
 def pick_colored():
     num = pick()
@@ -20,3 +19,10 @@ def pick_colored():
         return c.blue + '2'
     elif num == 3: 
         return c.yellow + 3
+    elif num == 4:
+        return c.green + 4
+    input('(press enter to begin)')
+      while True:
+       new = pick()
+       num.append(num)
+       t.sleep(9)
